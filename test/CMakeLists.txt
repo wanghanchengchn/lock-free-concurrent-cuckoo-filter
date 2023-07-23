@@ -1,0 +1,2 @@
+add_executable(lf_multislot_kcas_bfs_cuckoo_test lf_multislot_kcas_bfs_cuckoo_test.cpp)
+target_link_libraries(lf_multislot_kcas_bfs_cuckoo_test PRIVATE filters Threads::Threads GTest::gtest_main)
